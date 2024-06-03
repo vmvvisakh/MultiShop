@@ -1,0 +1,15 @@
+
+.FooterMain.px-5{
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+.form-control.SignupBtn{
+    border-radius: 0px !important;
+    /* border-color: yellow !important; */
+}
+
+.btn.btn-warning.rounded-0.me-2.selected {
+    border: 2px solid yellow;
+    
+  }

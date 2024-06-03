@@ -1,0 +1,166 @@
+ /* Navbar */
+
+.NavMain{
+   background-color: #F5F5F5;
+}
+
+.NavMain.px-5{
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+/* Header */
+
+.HeaderMain.px-5{
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+.HeaderMainCategory.px-5{
+    padding-right: 5rem !important;
+    padding-left: 92px !important;
+}
+
+.dropdown-menu.show.Nav_Dropdown{
+   
+    inset: 1px auto auto -37px !important;
+}
+
+.Header_Form{
+    margin-right: 69px;
+    width: 414px;
+    border-radius: 0px;
+}
+
+.header_Search_Icon{
+    height: 40px;
+}
+
+.Header_dark{
+    height: 70px;
+}
+
+.Header_Category{
+    height: 70px !important;
+}
+
+.headerDropdownresults{
+    position: absolute;
+    left: 76px;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+    top: 210px;
+    width: 339px;
+}
+
+.HeaderDropDownToggle.dropdown-toggle::after {
+    display: none !important;
+}
+
+.HeaderDropDownToggle.btn{
+        --bs-btn-padding-x: 0.00rem;
+        --bs-btn-padding-y: 0.00rem;
+}
+
+.DropdownMenuShow{
+    margin-left: 338px !important;
+    top: -51px !important;
+    height: 110px !important;
+    border-radius: 0px !important;
+}
+
+.headerDropdownresultPages{
+    position: absolute;
+    z-index: 1000;
+    background-color: #FFD333;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+    top: 210px;
+    width: 157px;
+    margin-left: 195px;
+    text-align: center;
+}
+
+/* content */
+
+.ContentMain.px-5{
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+.ContentMain.pb-5{
+  padding-bottom: 6rem !important;
+}
+
+.ContentMain{
+    background-color: #F5F5F5;
+}
+
+.ContentCarousal.carousel-caption{
+    left: 17% !important;
+    padding-bottom: 7.25rem !important;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 10px;
+    transition: top 0.5s ease;
+  }
+
+  .animate-slide-down {
+    top: 50%; 
+  }
+
+  .offerbtn{
+    width: 100px;
+    font-size: 16px;
+  }
+
+  .border-bottom.Content_Border {
+    border-bottom: 1px dotted black !important;
+    margin-top: 22px;
+}
+
+  .cardcat{
+    margin-left: 100px;
+    margin-top: -73px;
+  }
+
+  .card-content {
+    position: absolute;
+   
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    margin: 0 10px;
+    position: relative;
+  }
+
+  .icon-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+  }
+ 

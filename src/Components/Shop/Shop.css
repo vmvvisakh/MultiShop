@@ -1,0 +1,51 @@
+.ContentShopMain{
+    background-color: #F5F5F5;
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+    padding-bottom: 6rem !important;
+}
+
+.ShopContentBorder.border-top{
+    border-top: 1px dashed #bec5cb !important;
+    margin-left: 159px;
+    margin-top: -17px;
+    padding-bottom: 20px;
+    width: 56%;
+}
+
+.ShopContentPrice{
+    width: 106%;
+}
+
+.ShopContentCheckBox{
+    width: 20px;
+    height: 16px;
+}
+
+.form-check-input:checked {
+    background-color: #ffd000 !important;
+    box-shadow: none !important;
+    border-color: #ffd000 !important;
+}
+
+.shopcontentproducts.ps-4{
+    padding-left: 31px !important;
+}
+
+.contentproductsdropdown.btn-primary{
+    --bs-btn-bg: white !important;
+}
+
+.contentshopPagination .pagination  {
+    --bs-pagination-color: #ffe000 !important;
+    --bs-pagination-disabled-color: black;
+    --bs-pagination-disabled-bg: white;
+}
+
+
+
+.contentshopPagination .page-link:hover{
+    color: white !important;
+    box-shadow: none !important;
+    background-color: #ffe000;
+}

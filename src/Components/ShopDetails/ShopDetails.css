@@ -1,0 +1,62 @@
+.ShopDetailsContent.px-5{
+    background-color: #F5F5F5;
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+.ShopDetailsContent{
+    padding-bottom: 6rem;
+}
+
+.col-lg-5.shopDetailCard{
+    width: 42.666667%;
+}
+
+ .shopDetailCarousal .carousel-control-next-icon {
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/test-2/next-28.png") !important; 
+}
+
+.shopDetailCarousal .carousel-control-prev-icon {
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/test-2/prev.png");
+}
+
+.shopDetailsSize{
+    width: 15px;
+    height: 25px;
+}
+
+
+.btnOperationinput{
+    width: 46px !important;
+}
+
+.detailsTab .nav-link {
+color: black !important;
+}
+
+ .shopDetailsSize.form-check-input:checked {
+    /* border-radius: 50%; */
+    background-color: #fd440d ;
+}
+
+ .detailsTab.nav-tabs .nav-link.active {
+    background-color: #F5F5F5 !important;
+    border-color: #dee2e6 #dee2e6 #F5F5F5 !important;
+}
+
+
+.col-lg-3.shopDetailsProducts{
+    width: 23%;
+}
+
+.col-lg-9.shopDetailsProducts{
+    width: 77%;
+}
+
+.slick-arrow.slick-prev{
+    display: none !important;
+}
+
+.slick-arrow.slick-next{
+    display: none !important;
+}
