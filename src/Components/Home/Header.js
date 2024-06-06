@@ -2,8 +2,9 @@ import React, { useEffect, useRef, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faAngleRight, faCartShopping, faHeart, faSearch } from '@fortawesome/free-solid-svg-icons'
 import { FaBars } from "react-icons/fa6"
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Dropdown } from 'react-bootstrap';
+import './Home.css'
 
 
 function Header() {
@@ -11,7 +12,7 @@ function Header() {
     const [isDropdownOpen, setDropdownOpen] = useState(false);
     const [showContent, setShowContent] = useState('');
     const [isDropdownOpenPages, setDropdownOpenPages] = useState(false);
-
+    const navigate = useNavigate()
     
     const location = useLocation();
 
@@ -42,6 +43,10 @@ function Header() {
         color: (activePage === page || showContent === page) ? 'yellow' : 'white',
         
       });
+
+      const navigateToShoppingCart = () =>{
+        navigate('/shoppingcart')
+      }
 
       
   return (
@@ -152,7 +157,7 @@ function Header() {
 
                     {isDropdownOpenPages && (<div className='headerDropdownresultPages border border-0 bg-yellow pt-2'
                     >
-                    <p>Shopping Cart </p>
+                    <button onClick={navigateToShoppingCart} className='shoppingCartbtn bg-transparent border-0 mb-2' >Shopping Cart</button>
                     <p>Checkout</p>
                 </div>
                 )}

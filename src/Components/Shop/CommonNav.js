@@ -13,7 +13,7 @@ function CommonNav(props) {
         <Breadcrumb >
       <Breadcrumb.Item className='text-dark text-decoration-none' active>Home</Breadcrumb.Item>
       <Breadcrumb.Item className='text-dark' active>
-        {title}
+        Shop
       </Breadcrumb.Item>
       <Breadcrumb.Item active>{name}</Breadcrumb.Item>
     </Breadcrumb>

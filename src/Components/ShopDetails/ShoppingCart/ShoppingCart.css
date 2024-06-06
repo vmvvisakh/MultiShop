@@ -1,0 +1,40 @@
+.ShoppingCartDetailsMain.px-5{
+    background-color: #F5F5F5;
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+.ShoppingCartDetailsMain{
+    padding-bottom: 6rem;
+}
+
+.ShoppingCartDarkCard .ps-5{
+    padding-left: 10px;
+}
+
+.ShoppingCartDarkCard:hover {
+    color: #6C757D !important;
+    background-color: rgba(0, 0, 0, 0.075) !important;
+}
+
+/* .col-lg-3.shopDetailsProducts{
+    width: 23%;
+}
+
+.col-lg-9.shopDetailsProducts{
+    width: 77%;
+} */
+
+.shoppingCartInput{
+    width: 70%;
+    height: 57px;
+}
+
+.shoppingCartSummary.border{
+    border-top: 1px dotted black !important;
+    border-left: 0 !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    max-width: 55.3%;
+    margin-top: 13px;
+}

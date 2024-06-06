@@ -51,7 +51,7 @@ function Content() {
   return (
     <div className='ShopDetailsContent px-5'>
         <ScrollButton />
-        <CommonNav title='Shop' name='Shop Detail' />
+        <CommonNav name='Shop Detail' />
         <div className="row">
           <div className="col-lg-5">
             <Card className='shopDetailCard border border-0'>
