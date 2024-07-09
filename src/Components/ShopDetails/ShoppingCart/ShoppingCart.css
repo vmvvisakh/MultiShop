@@ -38,3 +38,38 @@
     max-width: 55.3%;
     margin-top: 13px;
 }
+
+
+/* Checkout.css */
+
+.shoppingCartCheckout.border{
+    border-top: 1px dotted black !important;
+    border-left: 0 !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    max-width: 77%;
+    margin-left: -10px;
+    margin-top: 13px;
+}
+
+.shoppingCartCheckoutTotal.border{
+    border-top: 1px dotted black !important;
+    border-left: 0 !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    max-width: 65%;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+
+/* .col-md-3.shoppingCartCheckout{
+    width: 23%;
+}
+
+.col-md-9.shoppingCartCheckout{
+    width: 76.5%;
+} */
+
+.paymentRadioBtn{
+    background-color: orange !important;
+}

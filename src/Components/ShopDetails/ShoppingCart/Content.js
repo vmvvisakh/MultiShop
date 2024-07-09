@@ -17,7 +17,6 @@ function Content() {
     <CommonNav name='ShoppingCart' />
     <div className="row">
         <div className="col-md-8">
-
         <Card className='bg-dark text-white text-center rounded-0 p-1 px-2 fw-bold'>
         <div className='row mt-2 ps-4'>
         <div className="col-md-3 ">

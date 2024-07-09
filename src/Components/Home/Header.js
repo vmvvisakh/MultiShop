@@ -48,6 +48,10 @@ function Header() {
         navigate('/shoppingcart')
       }
 
+      const navigateToCheckout = () =>{
+        navigate('/checkout')
+      }
+
       
   return (
     <div>
@@ -158,7 +162,7 @@ function Header() {
                     {isDropdownOpenPages && (<div className='headerDropdownresultPages border border-0 bg-yellow pt-2'
                     >
                     <button onClick={navigateToShoppingCart} className='shoppingCartbtn bg-transparent border-0 mb-2' >Shopping Cart</button>
-                    <p>Checkout</p>
+                    <button onClick={navigateToCheckout} className='shoppingCartbtn bg-transparent border-0 mb-2'>Checkout</button>
                 </div>
                 )}
                   <Link
